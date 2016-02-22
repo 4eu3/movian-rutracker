@@ -1,7 +1,7 @@
 /**
- * rutracker.org plugin for Showtime
+ * pornolab.net plugin for Showtime
  *
- *  Copyright (C) 2014-2016 Wain
+ *  Copyright (C) 2014-2016 Wain; 2016 4eu3
  *
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -58,7 +58,7 @@
     var settings = plugin.createSettings(config.pluginInfo.title, config.logo, config.pluginInfo.synopsis);
     settings.createInfo("info", config.logo, "Plugin developed by " + config.pluginInfo.author + ". \n");
     settings.createDivider('Settings');
-    settings.createString("domain", "Домен", "rutracker.org", function (v) {
+    settings.createString("domain", "Домен", "pornolab.net", function (v) {
         service.domain = v;
     });
 
@@ -68,7 +68,7 @@
 
     config.urls = {
         base: 'http://' + service.domain + '/forum/',
-        login: 'http://login.' + service.domain + '/forum/login.php',
+        login: 'http://' + service.domain + '/forum/login.php',
         parts: {
             index: 'index.php',
             topic: 'viewtopic.php?t=',
@@ -485,7 +485,7 @@
         var captchaValue;
 
         setPageHeader(page, "Ввод капчи для входа");
-        page.appendItem('rutracker:start', "video", {
+        page.appendItem('pornolab:start', "video", {
             title: new showtime.RichText("Капча"),
             icon: decodeURIComponent(image)
         });
