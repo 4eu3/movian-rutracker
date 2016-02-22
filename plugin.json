@@ -1,14 +1,14 @@
 {
   "description": "Rutracker.org is currently the biggest bitTorrent tracker in Russia and CIS.",
   "author": "Wain",
-  "homepage": "http://github.com/Wain-PC",
-  "title": "Rutracker",
-  "synopsis": "Rutracker",
+  "homepage": "http://github.com/4eu3",
+  "title": "Pornolab",
+  "synopsis": "Pornolab",
   "version": "0.6.1",
-  "file": "rutracker.js",
+  "file": "pornolab.js",
   "showtimeVersion": "4.9.389",
   "type": "ecmascript",
   "icon": "logo.png",
-  "id": "rutracker",
+  "id": "pornolab",
   "category": "video"
 }
